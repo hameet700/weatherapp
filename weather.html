@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css" />
+    <link rel="stylesheet" href="css/weather-icons.min.css" />
+    <script
+      src="https://kit.fontawesome.com/cb87ed6055.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="textfield">
+        <input
+          type="text"
+          placeholder="  Enter your location"
+          class="location"
+        />
+        <button class="search"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="icon">
+        <i
+          id="ic"
+          class="wi wi-day-sunny"
+          style="font-size: 150px; color: white;"
+        ></i>
+      </div>
+      <div class="temperature">
+        <div class="temp">
+          <span class="degree">31.13</span>
+          <span class="deg">°C</span>
+        </div>
+        <p class="description">clear sky</p>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
